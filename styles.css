@@ -468,7 +468,7 @@ a{
     height: 1000px;
 }
 .f-img{
-    background-image: url(img/flower-store.png);
+    background-image: url(image/flower-store.png);
     height: 400px;
     width: 500px;
 }
@@ -502,7 +502,7 @@ a{
     gap: 8px;
 }
 .div-gal1{
-    background-image: url(img/deal-bloom.png);
+    background-image: url(image/deal-bloom.png);
     border-radius: 10px;
     background-repeat: no-repeat;
     height: 150px;
@@ -512,7 +512,7 @@ a{
 }  
 
 .div-gal2 {
-    background-image: url(img/deal-ana.png);
+    background-image: url(image/deal-ana.png);
     border-radius: 10px;
     grid-column-start: 1;
     grid-row-start: 2;
@@ -538,7 +538,7 @@ a{
 }
 
 .div-gal3 {
-    background-image: url(img/deal-zabo.png);
+    background-image: url(image/deal-zabo.png);
     border-radius: 10px;
     grid-column-start: 1;
     grid-row-start: 3;
