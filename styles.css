@@ -1,0 +1,597 @@
+body{
+    margin: 0px auto;
+}
+.bg{
+    background-color: #e95a08;
+}
+.primary{
+    color: #e95a08;
+}
+.color-text{
+    color: #979a9f;
+}
+.menu-color{
+    color: #f5f8ff;
+}
+a{
+    text-decoration: none;
+}
+/*--------nav section start---------*/
+.navbar{
+    width: 1140px;
+    height: 80px;
+    margin: 0px auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list{
+    padding-right: 20px;
+    margin: 0px 90px;
+}
+.menu-list a{
+    color: #979a9f;
+    margin-right: 40px;
+}
+.menu-list a:hover{
+    color: black;
+}
+.menu-list i{
+    font-size: 10px;
+}
+.menu-list span{
+    font-weight: 100;
+    color: #474748;
+    font-size: 20px;
+}
+
+/*--------nav section end---------*/
+/*--------baner section start---------*/
+.baner-main{
+    width: 1140px;
+    height: 461px;
+}
+.baner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.banner-t{
+    width: 500px;
+    margin: 0px auto;
+}
+.banner-t h1{
+    font-size: 3rem;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.banner-t p{
+    margin-top: 20px;
+    font-size: 1rem;
+    width: 350px;
+}
+.banner{
+    width: 500px;
+    height: 355px;
+    margin: 0px auto;
+}
+.banner img{
+    height: 300px;
+}
+/*--------baner section end---------*/
+/*--------card section start---------*/
+.plant{
+    width: 1140px;
+    text-align: center;
+    margin: 0px auto;
+}
+.plant h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.plant p{
+    font-size: 1rem;
+}
+.div1 img{
+    height: 250px;
+}
+.div2 img{
+    height: 250px;
+}
+.div3 img{
+    height: 250px;
+}
+.div4 img{
+    height: 250px;
+}
+.div5 img{
+    height: 250px;
+}
+.div6 img{
+    height: 250px;
+}
+.div7 img{
+    height: 250px;
+}
+.div8 img{
+    height: 250px;
+}
+.cart-btn{
+    border: none;
+    height: 30px;
+    width: 75%;
+    color: #f5f8ff;
+}
+
+
+/*card css*/
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px 0px;
+    padding-left: 0px;
+}
+.div5 {
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+
+.div7 {
+    grid-row-start: 2;
+}
+
+.div8 {
+    grid-row-start: 2;
+}
+ 
+/*--------card section end---------*/
+/*--------flower section start---------*/
+.flower-main{
+    padding-top: 100px;
+    width: 1140px;
+    position: relative;
+}
+#badge{
+    height: 300px;
+    position: absolute;
+    right: 430px;
+    top: -0px;
+}
+.flower{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    height: 570px;
+}
+.f-img {
+    background-image: url(image/flower-store.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 540px;
+}
+.f-img img{
+    height: 100px;
+}
+.fl-text{
+    margin-left: -50px;
+}
+.fl-text h2{
+    font-size: 3rem;
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+.fl-text ul li{
+    font-size: 1rem;
+    width: 310px;
+    color: #737377;
+    margin-bottom: 10px;
+}
+/*---------flower section end--------*/
+
+/*galary*/
+.deal{
+    text-align: center;
+    margin: 0px auto;
+}
+.deals h2{
+    font-size: 3rem;
+}
+.gal{
+    margin-left: 70px;
+}
+.parent-gal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+.div-gal1{
+    background-image: url(image/deal-bloom.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    height: 190px;
+    width: 367px;
+    text-align: center;
+}  
+
+.div-gal2 {
+    background-image: url(image/deal-ana.png);
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-repeat: no-repeat;
+    height: 190px;
+    width: 367px;
+    text-align: center;
+}
+.div-gal1 h4{
+    color: white;
+    padding-top: 40px;
+}
+.div-gal1 a{
+    color: white;
+}
+.div-gal2 h4{
+    color: white;
+    padding-top: 40px;
+}
+.div-gal2 a{
+    color: white;
+}
+
+.div-gal3 {
+    background-image: url(image/deal-zabo.png);
+    border-radius: 10px;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 683px;
+    text-align: center;
+}
+.div-gal3 h2{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 150px;
+}
+.div-gal3 a{
+    color: white;
+    font-size: 1.3rem;
+}
+/*--------input section start---------*/
+.news{
+    width: 1100px;
+    height: 573px;
+    background-image: url(image/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.news-list{
+    margin-top: -200px;
+
+}
+.news h1{
+    font-size: 3rem;
+    color: white;
+}
+.news-in{
+   margin-left: -70px;
+}
+#in{
+    height: 40px;
+    width: 550px;
+}
+.sub{
+    height: 45px;
+    width: 150px;
+    color: white;
+    border: none;
+    margin-left: -5px;
+    outline: none;
+}
+/*--------input section end---------*/
+/*--------foter section start ---------*/
+.ft-main{
+    width: 1140px;
+    height: 400px;
+    background-color: white;
+}
+.foter{
+    width: 1100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    margin:-100px  20px;
+}
+.foter-item1{
+    width: 25%;
+}
+.foter-item2{
+    width: 15%;
+}
+.foter-item2 a{
+    color: #99999f;
+    font-size: 0.8rem;
+  
+}
+.ft-link{
+    display: block;
+    margin: auto;
+}
+.foter-item img{
+    margin-left: 20px;
+}
+#twit{
+    height: 30px;
+}
+/*--------foter section end---------*/
+        
+
+
+/*******---------responsive code-----------*******/
+@media  (max-width: 600px) {
+    .menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo img{
+        height: 70px;
+        padding: 10px 10px;
+    }
+    .menu-list{
+    padding-right:0px;
+    margin: 0px;
+}
+    .menu-list a{
+    color: #979a9f;
+    }
+    .baner{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.banner-t{
+    width: 500px;
+    margin: 0px;
+    padding: 10px;
+}
+.banner-t h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+.plant{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+.plant h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.plant p{
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px 0px;
+    padding-left: 0px;
+}
+.div3 {
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-row-start: 3;
+}
+
+.div6 {
+    grid-row-start: 3;
+}
+
+.div7 {
+    grid-row-start: 4;
+}
+
+.div8 {
+    grid-row-start: 4;
+}  
+.div1 img{
+    height: 190px;
+}
+.div2 img{
+    height: 190px;
+}
+.div3 img{
+    height: 190px;
+}
+.div4 img{
+    height: 190px;
+}
+.div5 img{
+    height: 190px;
+}
+.div6 img{
+    height: 190px;
+}
+.div7 img{
+    height: 190px;
+}
+.div8 img{
+    height: 190px;
+}
+#badge{
+    display: none;
+}
+.flower{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+.f-img{
+    background-image: url(image/flower-store.png);
+    height: 400px;
+}
+.fl-text{
+    margin-left:10px ;
+}
+/**galary**/
+.deal{
+    text-align: center;
+    margin: 0px auto;
+}
+.deals h2{
+    font-size: 3rem;
+}
+.deals p{
+    margin-bottom: 24px;
+    padding: 0px 10px;
+}
+.deals p br{
+    display: none;
+}
+.gal{
+    margin-left: 10px;
+}
+.parent-gal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+.div-gal1{
+    background-image: url(image/deal-bloom.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 347px;
+    text-align: center;
+}  
+
+.div-gal2 {
+    background-image: url(image/deal-ana.png);
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 347px;
+    text-align: center;
+}
+.div-gal1 h4{
+    color: white;
+    padding-top: 40px;
+}
+.div-gal1 a{
+    color: white;
+}
+.div-gal2 h4{
+    color: white;
+    padding-top: 40px;
+}
+.div-gal2 a{
+    color: white;
+}
+
+.div-gal3 {
+    background-image: url(image/deal-zabo.png);
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    height: 160px;
+    width: 347px;
+    text-align: center;
+}
+.div-gal3 h2{
+    color: white;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.div-gal3 a{
+    color: white;
+    font-size: 1.3rem;
+}
+/*--------input section start---------*/
+.news-list{
+    background-image: url(image/news-letter-bg.png);
+    width: 570px;
+   text-align: center;
+}
+.news h1{
+    font-size: 2rem;
+    color: white;
+}
+.news-in{
+   margin-left: 0px;
+}
+#in{
+    height: 40px;
+    width: 200px;
+}
+.sub{
+    height: 45px;
+    width: 70px;
+    color: white;
+    border: none;
+    margin-left: -5px;
+    outline: none;
+}
+/*--------input section end---------*/
+/*--------foter section start ---------*/
+.ft-main{
+    width: 1140px;
+    height: 400px;
+    background-color: white;
+}
+.foter{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin:-100px  20px;
+}
+.foter-item1{
+    width: 50%;
+}
+.foter-item2{
+    width: 45%;
+}
+.foter-item2 a{
+    color: #99999f;
+    font-size: 0.8rem;
+  
+}
+.ft-link{
+    display: block;
+    margin: auto;
+}
+.foter-item img{
+    margin-left: 20px;
+}
+#twit{
+    height: 30px;
+}
+/*--------foter section end---------*/
+}
