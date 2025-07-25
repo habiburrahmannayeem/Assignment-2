@@ -345,22 +345,29 @@ a{
 
 /*******---------responsive code-----------*******/
 @media  (max-width: 600px) {
-    .menu{
+.menu{
         display: flex;
         justify-content: space-between;
+        position: relative;
     }
-    .logo img{
+.logo img{
         height: 70px;
         padding: 10px 10px;
+        margin-left: 20px;
     }
-    .menu-list{
-    padding-right:0px;
-    margin: 0px;
+.menu-list{
+    display: none;
 }
-    .menu-list a{
-    color: #979a9f;
-    }
-    .baner{
+.cart{
+  position: absolute;
+  left: 350px;
+  top: 50px;
+   
+}
+.cart span{
+    height: 50px;
+}
+.baner{
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
@@ -374,6 +381,10 @@ a{
     font-size: 3rem;
     margin-bottom: 20px;
     margin-top: -60px;
+    margin-left: 50px;
+}
+.banner-t p{
+    margin-left: 50px;
 }
 .plant{
     width: 100%;
@@ -383,17 +394,23 @@ a{
 .plant h2{
     font-size: 3rem;
     margin-bottom: 20px;
+    margin-left: 100px;
 }
 .plant p{
     font-size: 1rem;
     padding: 0px 10px;
+    margin-left: 100px;
+}
+.plant p br{
+    display: none;
 }
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 20px 0px;
+    gap: 20px 20px;
     padding-left: 0px;
+    margin-left: 80px;
 }
 .div3 {
     grid-row-start: 2;
@@ -451,11 +468,12 @@ a{
     height: 1000px;
 }
 .f-img{
-    background-image: url(image/flower-store.png);
+    background-image: url(img/flower-store.png);
     height: 400px;
+    width: 500px;
 }
 .fl-text{
-    margin-left:10px ;
+    margin-left:60px ;
 }
 /**galary**/
 .deal{
@@ -464,9 +482,11 @@ a{
 }
 .deals h2{
     font-size: 3rem;
+    margin-left: 60px;
 }
 .deals p{
     margin-bottom: 24px;
+    margin-left: 50px;
     padding: 0px 10px;
 }
 .deals p br{
@@ -482,23 +502,25 @@ a{
     gap: 8px;
 }
 .div-gal1{
-    background-image: url(image/deal-bloom.png);
+    background-image: url(img/deal-bloom.png);
     border-radius: 10px;
     background-repeat: no-repeat;
-    height: 160px;
-    width: 347px;
+    height: 150px;
+    width: 350px;
+    margin-left: 50px;
     text-align: center;
 }  
 
 .div-gal2 {
-    background-image: url(image/deal-ana.png);
+    background-image: url(img/deal-ana.png);
     border-radius: 10px;
     grid-column-start: 1;
     grid-row-start: 2;
     background-repeat: no-repeat;
     height: 160px;
-    width: 347px;
+    width: 350px;
     text-align: center;
+    margin-left: 50px;
 }
 .div-gal1 h4{
     color: white;
@@ -516,32 +538,35 @@ a{
 }
 
 .div-gal3 {
-    background-image: url(image/deal-zabo.png);
+    background-image: url(img/deal-zabo.png);
     border-radius: 10px;
     grid-column-start: 1;
     grid-row-start: 3;
     height: 160px;
-    width: 347px;
+    width: 350px;
     text-align: center;
+    margin-left: 50px;
 }
 .div-gal3 h2{
     color: white;
     font-size: 1rem;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .div-gal3 a{
     color: white;
     font-size: 1.3rem;
 }
 /*--------input section start---------*/
-.news-list{
-    background-image: url(image/news-letter-bg.png);
-    width: 570px;
-   text-align: center;
+.news{
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 0px;
 }
 .news h1{
     font-size: 2rem;
     color: white;
+    margin-top: -50px;
 }
 .news-in{
    margin-left: 0px;
@@ -561,6 +586,7 @@ a{
 /*--------input section end---------*/
 /*--------foter section start ---------*/
 .ft-main{
+    margin: 0px auto;
     width: 1140px;
     height: 400px;
     background-color: white;
@@ -570,7 +596,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin:-100px  20px;
+    margin:-100px  0px;
 }
 .foter-item1{
     width: 50%;
@@ -587,8 +613,11 @@ a{
     display: block;
     margin: auto;
 }
+.foter-item{
+    margin-left: -50px;
+}
 .foter-item img{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 #twit{
     height: 30px;
